@@ -13,6 +13,20 @@
   text-transform: uppercase;
   letter-spacing: 0.07em;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.specialBadge {
+  font-size: 10px;
+  color: var(--warm-accent);
+  background: rgba(139, 111, 69, 0.1);
+  border: 0.5px solid rgba(139, 111, 69, 0.3);
+  border-radius: 10px;
+  padding: 2px 8px;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .body {
@@ -40,6 +54,10 @@
   border-bottom: 0.5px solid var(--warm-border);
 }
 
+.specialDesc {
+  font-style: italic;
+}
+
 .choices {
   display: flex;
   flex-direction: column;
@@ -58,6 +76,7 @@
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
   width: 100%;
+  font-family: inherit;
 }
 
 .choice:hover {

@@ -6,14 +6,21 @@ export default function EventPanel({ event, onChoice }) {
 
   return (
     <div className={styles.col}>
-      <div className={styles.header}>What happens next</div>
+      <div className={styles.header}>
+        <span>What happens next</span>
+        {event.special && (
+          <span className={styles.specialBadge}>★ critical moment</span>
+        )}
+      </div>
       <div className={styles.body}>
         {event.theme && (
           <div className={styles.theme}>
             {event.theme.replace(/_/g, ' ')}
           </div>
         )}
-        <p className={styles.description}>{event.description}</p>
+        <p className={`${styles.description} ${event.special ? styles.specialDesc : ''}`}>
+          {event.description}
+        </p>
         <div className={styles.choices}>
           {(event.choices || []).map((choice, i) => (
             <button

@@ -4,7 +4,6 @@
   flex-direction: column;
   background: var(--paper);
   min-height: 0;
-  height: 100%;
 }
 
 .header {
@@ -23,22 +22,10 @@
 .scroll {
   flex: 1;
   overflow-y: auto;
-  overflow-x: hidden;
   padding: 14px 18px;
   display: flex;
   flex-direction: column;
   gap: 14px;
-  min-height: 0;
-}
-
-/* nicer scrollbar */
-.scroll::-webkit-scrollbar {
-  width: 6px;
-}
-
-.scroll::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.12);
-  border-radius: 20px;
 }
 
 .empty {
@@ -61,6 +48,12 @@
   border-bottom: none;
 }
 
+.specialEntry {
+  border-left: 2px solid var(--warm-accent);
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -78,6 +71,15 @@
   color: var(--warm-accent-light);
   margin-bottom: 4px;
   font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star {
+  color: var(--warm-accent);
+  font-size: 10px;
+  font-style: normal;
 }
 
 .desc {
