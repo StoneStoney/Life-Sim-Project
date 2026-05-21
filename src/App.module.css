@@ -49,8 +49,8 @@
 
 .body {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  flex: 1;
+  grid-template-columns: 340px 1fr;
+  height: calc(100vh - 160px);
   min-height: 0;
   overflow: hidden;
 }
