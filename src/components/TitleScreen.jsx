@@ -7,10 +7,13 @@ export default function TitleScreen({ onStart, onLoadFile, onSettings }) {
   function handleFile(e) {
     const file = e.target.files[0]
     if (!file) return
+
     const reader = new FileReader()
+
     reader.onload = (ev) => {
       try {
         const parsed = JSON.parse(ev.target.result)
+
         if (Array.isArray(parsed) && parsed.length > 0) {
           onLoadFile(parsed)
         } else {
@@ -20,31 +23,59 @@ export default function TitleScreen({ onStart, onLoadFile, onSettings }) {
         alert('Invalid JSON file.')
       }
     }
+
     reader.readAsText(file)
   }
 
   return (
     <div className={styles.screen}>
       <div className={styles.inner}>
-        <div className={styles.eyebrow}>a life simulation</div>
-        <h1 className={styles.title}>A Life, Unfolding</h1>
+
+        <div className={styles.eyebrow}>
+          a life simulation
+        </div>
+
+        <h1 className={styles.title}>
+          A Life, Unfolding
+        </h1>
+
         <p className={styles.sub}>
-          No destiny. No score. No lesson.<br />
+          No destiny. No score. No lesson.
+          <br />
           Just a series of small decisions and what comes after.
         </p>
 
         <div className={styles.actions}>
-          <button className={styles.primary} onClick={onStart}>
-            Begin with demo events
+
+          {/* MAIN CTA */}
+          <button
+            className={styles.primary}
+            onClick={onStart}
+          >
+            Begin
           </button>
 
+          {/* SETTINGS */}
           <button
-            className={styles.secondary}
+            className={styles.ghost}
+            onClick={onSettings}
+          >
+            <i className="ti ti-settings" aria-hidden="true" />
+            Settings
+          </button>
+
+        </div>
+
+        {/* SUBTLE DEV TOOL AREA */}
+        <div className={styles.devArea}>
+
+          <button
+            className={styles.hiddenUpload}
             onClick={() => fileRef.current?.click()}
           >
-            <i className="ti ti-upload" aria-hidden="true" />
-            Load your events JSON
+            load custom event file
           </button>
+
           <input
             type="file"
             accept=".json"
@@ -53,15 +84,8 @@ export default function TitleScreen({ onStart, onLoadFile, onSettings }) {
             onChange={handleFile}
           />
 
-          <button className={styles.ghost} onClick={onSettings}>
-            <i className="ti ti-settings" aria-hidden="true" />
-            Settings
-          </button>
         </div>
 
-        <p className={styles.hint}>
-          Your <code>life_events_clean.json</code> can be loaded at any time.
-        </p>
       </div>
     </div>
   )

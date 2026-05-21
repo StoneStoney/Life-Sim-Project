@@ -1,5 +1,4 @@
 import { AGE_LABELS, AGE_GROUPS } from './constants'
-import demoEvents from './data/demoEvents'
 import { useGameState } from './hooks/useGameState'
 import TitleScreen from './components/TitleScreen'
 import SettingsScreen from './components/SettingsScreen'
