@@ -1,118 +1,79 @@
-.col {
-  border - right: 0.5px solid var(--warm - border);
-  display: flex;
-  flex - direction: column;
-  background: var(--paper);
-  min - height: 0;
-  height: 100 %;
+import React from 'react'
+import { AGE_LABELS } from '../constants'
+import styles from './DiaryPanel.module.css'
+
+function DeltaPill({ stat, val }) {
+  const sign = val > 0 ? '+' : ''
+  const cls = val > 0 ? styles.pos : styles.neg
+  const label = stat.charAt(0).toUpperCase() + stat.slice(1)
+
+  return (
+    <span className={`${styles.pill} ${cls}`}>
+      {label} {sign}{val}
+    </span>
+  )
 }
 
-.header {
-  padding: 14px 18px 10px;
-  border - bottom: 0.5px solid var(--warm - border);
-  font - size: 11px;
-  color: var(--warm - muted);
-  text - transform: uppercase;
-  letter - spacing: 0.07em;
-  display: flex;
-  align - items: center;
-  gap: 6px;
-  flex - shrink: 0;
+function DiaryEntry({ entry }) {
+  return (
+    <div className={styles.entry}>
+      <div className={styles.meta}>
+        {AGE_LABELS[entry.age] || entry.age}
+      </div>
+
+      <div className={styles.desc}>
+        {entry.event.description}
+      </div>
+
+      <div className={styles.choice}>
+        “{entry.choice.text}”
+      </div>
+
+      {Object.keys(entry.deltas).length > 0 && (
+        <div className={styles.deltas}>
+          {Object.entries(entry.deltas).map(([k, v]) => (
+            <DeltaPill
+              key={k}
+              stat={k}
+              val={v}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  )
 }
 
-.scroll {
-  flex: 1;
-  overflow - y: auto;
-  overflow - x: hidden;
-  padding: 14px 18px;
-  display: flex;
-  flex - direction: column;
-  gap: 14px;
-  min - height: 0;
-}
+export default function DiaryPanel({ history }) {
 
-/* nicer scrollbar */
-.scroll:: -webkit - scrollbar {
-  width: 6px;
-}
+  // newest first
+  const reversedHistory = [...history].reverse()
 
-.scroll:: -webkit - scrollbar - thumb {
-  background: rgba(0, 0, 0, 0.12);
-  border - radius: 20px;
-}
+  return (
+    <div className={styles.col}>
 
-.empty {
-  font - size: 12px;
-  color: var(--warm - muted);
-  font - style: italic;
-  padding: 8px 0;
-}
+      <div className={styles.header}>
+        <i className="ti ti-journal" aria-hidden="true" />
+        Journal
+      </div>
 
-.entry {
-  font - size: 13px;
-  line - height: 1.65;
-  color: var(--ink);
-  padding - bottom: 12px;
-  border - bottom: 0.5px solid var(--warm - border);
-  animation: fadeUp 0.35s ease forwards;
-}
+      <div className={styles.scroll}>
 
-.entry: last - child {
-  border - bottom: none;
-}
+        {history.length === 0 ? (
+          <p className={styles.empty}>
+            Your choices will appear here…
+          </p>
+        ) : (
+          reversedHistory.map((entry, i) => (
+            <DiaryEntry
+              key={i}
+              entry={entry}
+            />
+          ))
+        )}
 
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(5px);
-  }
+      </div>
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.meta {
-  font - size: 11px;
-  color: var(--warm - accent - light);
-  margin - bottom: 4px;
-  font - style: italic;
-}
-
-.desc {
-  color: var(--ink);
-}
-
-.choice {
-  font - size: 12px;
-  color: var(--warm - muted);
-  margin - top: 5px;
-  padding - left: 10px;
-  border - left: 2px solid var(--warm - border - strong);
-  font - style: italic;
-}
-
-.deltas {
-  display: flex;
-  flex - wrap: wrap;
-  gap: 5px;
-  margin - top: 6px;
-}
-
-.pill {
-  font - size: 10px;
-  padding: 2px 7px;
-  border - radius: 10px;
-  font - weight: 500;
-}
-
-.pos {
-  background: rgba(110, 158, 110, 0.15);
-  color: #3E7A3E;
-}
-
-.neg {
-  background: rgba(176, 112, 112, 0.15);
-  color: #8B3A3A;
+    </div>
+  )
 }
