@@ -1,0 +1,1404 @@
+[
+  {
+    "description": "Your boss has assigned you an additional project with an impending deadline that could jeopardize your well-being.",
+    "choices": [
+      {
+        "text": "Take a day off.",
+        "health": 1,
+        "happiness": -2,
+        "money": -2,
+        "stress": -1
+      },
+      {
+        "text": "Ask for help from a coworker.",
+        "health": 1,
+        "happiness": 1,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Turn down the extra work.",
+        "health": 2,
+        "happiness": -2,
+        "money": -3,
+        "stress": -1
+      },
+      {
+        "text": "Negotiate a later deadline.",
+        "health": 1,
+        "happiness": 1
+      }
+    ],
+    "age_group": "adult",
+    "theme": "burnout",
+    "rarity": 1
+  },
+  {
+    "description": "Facing an unexpected layoff from your job amidst economic downturn.",
+    "choices": [
+      {
+        "text": "Celebrate with friends and family, boosting happiness significantly but causing minor stress due to the increased responsibilities.",
+        "health": 0,
+        "happiness": 5,
+        "money": 10,
+        "stress": -1
+      },
+      {
+        "text": "Dive into new projects without taking time off for relaxation, leading to a slight decrease in health due to overwork.",
+        "health": -1,
+        "happiness": 3,
+        "money": 8,
+        "stress": 2
+      },
+      {
+        "text": "Accept the layoff gracefully and start searching for new opportunities, preserving some sanity despite financial concerns.",
+        "health": 0,
+        "happiness": -1,
+        "money": -5
+      }
+    ],
+    "age_group": "adult",
+    "theme": "career",
+    "rarity": 1
+  },
+  {
+    "description": "You've just retired after a long career as an accountant, and you decide it’s time to travel around the world.",
+    "choices": [
+      {
+        "text": "Visit Europe for history and culture (Option A)",
+        "health": 1,
+        "happiness": 3,
+        "money": -3,
+        "stress": -1
+      },
+      {
+        "text": "Relax on a tropical island with friends (Option B)",
+        "health": 2,
+        "happiness": 3,
+        "money": -2,
+        "stress": -2
+      },
+      {
+        "text": "Learn Spanish in Spain (Option C)",
+        "health": -1,
+        "happiness": 2,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Volunteer teaching math abroad (Option D)",
+        "health": -1,
+        "happiness": 3,
+        "money": -2,
+        "stress": -1
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "retirement",
+    "rarity": 4
+  },
+  {
+    "description": "You're scrolling through your social media feed when you see an invitation to a friend’s party next weekend. It looks like it might be fun, and the theme is \"80s Retro.\" You consider whether or not to RSVP.",
+    "choices": [
+      {
+        "text": "(RSVP) Accept the invitation and prepare for the party.",
+        "health": 1,
+        "happiness": 2,
+        "money": 1,
+        "stress": 2
+      },
+      {
+        "text": "(Decline) Politely decline the invitation due to prior commitments.",
+        "health": 1,
+        "happiness": 1,
+        "money": 1,
+        "stress": 0
+      },
+      {
+        "text": "(Ignore) Ignore the invitation hoping that someone else will take the initiative to go.",
+        "health": 1,
+        "happiness": -1,
+        "money": 0,
+        "stress": 2
+      }
+    ],
+    "age_group": "teen",
+    "theme": "internet",
+    "rarity": 4
+  },
+  {
+    "description": "Your neighbor asks you to help with yard work for an extra $20 per hour.",
+    "choices": [
+      {
+        "text": "Accept the offer.",
+        "health": 1,
+        "happiness": -1,
+        "money": 5,
+        "stress": -1
+      },
+      {
+        "text": "Decline due to academic commitments.",
+        "health": 0,
+        "happiness": -2,
+        "money": -1,
+        "stress": 1
+      },
+      {
+        "text": "Agree to help out.",
+        "health": 1,
+        "happiness": -1,
+        "money": 5,
+        "stress": -1
+      },
+      {
+        "text": "Politely decline as you have other plans.",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "part-time jobs",
+    "rarity": 2
+  },
+  {
+    "description": "Your neighbor mentions they are considering refinancing their home mortgage for a lower rate.",
+    "choices": [
+      {
+        "text": "Call the bank to negotiate better terms.",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": 1
+      },
+      {
+        "text": "Research new homeowners insurance policies.",
+        "health": 0,
+        "happiness": -1,
+        "money": -2,
+        "stress": 1
+      },
+      {
+        "text": "Ask them how it went and if they've noticed any savings.",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Offer advice based on what you know about mortgages.",
+        "health": 0,
+        "happiness": -1
+      }
+    ],
+    "age_group": "adult",
+    "theme": "mortgages",
+    "rarity": 3
+  },
+  {
+    "description": "Taylor",
+    "choices": [
+      {
+        "text": "Study for an additional hour.",
+        "health": 1,
+        "happiness": -1,
+        "money": -1,
+        "stress": -2
+      },
+      {
+        "text": "Go out with friends instead of studying.",
+        "health": -1,
+        "happiness": 2,
+        "money": -2,
+        "stress": 1
+      },
+      {
+        "text": "Organize a study session with classmates.",
+        "health": 2,
+        "happiness": -1,
+        "money": 0,
+        "stress": -2
+      },
+      {
+        "text": "Skip the study session to rest.",
+        "health": 1,
+        "happiness": 1,
+        "money": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "school",
+    "rarity": 4
+  },
+  {
+    "description": "You receive constructive criticism on a project at work which makes you",
+    "choices": [
+      {
+        "text": "Check the email immediately.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 3
+      },
+      {
+        "text": "Take deep breaths while waiting.",
+        "health": -1,
+        "happiness": 2,
+        "money": -1,
+        "stress": -2
+      },
+      {
+        "text": "Call another potential employer.",
+        "health": -1,
+        "happiness": 1,
+        "money": -1,
+        "stress": 3
+      },
+      {
+        "text": "Go out for a walk in the park.",
+        "health": 2,
+        "happiness": -1,
+        "money": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "career anxiety",
+    "rarity": 4
+  },
+  {
+    "description": "You're walking through the park and stumble upon an old bench where you once shared a secret with your childhood friend, Lily. The sight of her triggers a wave of nostalgia for simpler times.",
+    "choices": [
+      {
+        "text": "Sit down on the same bench as before",
+        "health": 0,
+        "happiness": 4,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Look around and admire the growth of the trees and plants since last time",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 0
+      },
+      {
+        "text": "Pick up a fallen leaf from under the bench and hold it in your hand",
+        "health": 0,
+        "happiness": 2,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Take out your phone and look up photos from that day to relive memories",
+        "health": 0,
+        "happiness": 3
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "nostalgia",
+    "rarity": 2
+  },
+  {
+    "description": "Your neighbor asks if you can help them move furniture on Saturday.",
+    "choices": [
+      {
+        "text": "Pay for the repairs immediately using savings.",
+        "health": 0,
+        "happiness": -3,
+        "money": -6,
+        "stress": -1
+      },
+      {
+        "text": "Postpone the repair and hope it doesn't break down again.",
+        "health": -1,
+        "happiness": 1,
+        "money": 0,
+        "stress": 3
+      },
+      {
+        "text": "Look for cheaper alternatives or possibly fix it yourself.",
+        "health": -1,
+        "happiness": -2,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Agree to help out as good neighbors.",
+        "health": 0,
+        "happiness": -2
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "aging",
+    "rarity": 3
+  },
+  {
+    "description": "You're getting ready for work and you realize your car won't start.",
+    "choices": [
+      {
+        "text": "Call a taxi",
+        "health": 0,
+        "happiness": 1,
+        "money": -1,
+        "stress": 1
+      },
+      {
+        "text": "Take public transportation",
+        "health": 1,
+        "happiness": 0,
+        "money": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "adult",
+    "theme": "routine",
+    "rarity": 5
+  },
+  {
+    "description": "During lunch, your colleague invites you to join them for dinner after work.",
+    "choices": [
+      {
+        "text": "Accept the invitation",
+        "health": 1,
+        "happiness": 2,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Politely decline due to prior commitments",
+        "health": 0,
+        "happiness": 0,
+        "money": 1,
+        "stress": -1
+      }
+    ],
+    "age_group": "adult",
+    "theme": "routine",
+    "rarity": 5
+  },
+  {
+    "description": "Your crush asks if you want to go on a group date with friends.",
+    "choices": [
+      {
+        "text": "Accept the invitation.",
+        "health": 0,
+        "happiness": 3,
+        "money": -1,
+        "stress": 0
+      },
+      {
+        "text": "Politely decline and say you're busy.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 0
+      },
+      {
+        "text": "Agree to join them.",
+        "health": 0,
+        "happiness": 2,
+        "money": -1,
+        "stress": 0
+      },
+      {
+        "text": "Decline because you prefer one-on-one time.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "dating",
+    "rarity": 3
+  },
+  {
+    "description": "Your boss asks for your input on an important project decision during lunch with coworkers.",
+    "choices": [
+      {
+        "text": "Accept the promotion and move cities.",
+        "health": 1,
+        "happiness": 0,
+        "money": 5,
+        "stress": 2
+      },
+      {
+        "text": "Decline the promotion due to family commitments.",
+        "health": 0,
+        "happiness": 2,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Offer a detailed analysis of potential outcomes.",
+        "health": 0,
+        "happiness": -1,
+        "money": 1,
+        "stress": 2
+      },
+      {
+        "text": "Suggest taking some time to think it over before deciding.",
+        "health": 1,
+        "happiness": 1,
+        "money": 0,
+        "stress": -1
+      }
+    ],
+    "age_group": "adult",
+    "theme": "career",
+    "rarity": 3
+  },
+  {
+    "description": "After months of working overtime, Alex's job performance starts declining due to exhaustion and lack of motivation.",
+    "choices": [
+      {
+        "text": "Take a sick day to rest.",
+        "health": 1,
+        "happiness": -1,
+        "stress": -1
+      },
+      {
+        "text": "Push through the workload without breaks.",
+        "health": -1,
+        "happiness": -2,
+        "stress": 1
+      }
+    ],
+    "age_group": "adult",
+    "theme": "burnout",
+    "rarity": 1
+  },
+  {
+    "description": "After enjoying dinner with friends, it’s time to pay the bill. Unfortunately, you don't have enough cash on hand, so you must choose between using your debit card and potentially facing overdraft fees or splitting the cost among friends.",
+    "choices": [
+      {
+        "text": "Borrow $50 from Alex (friend)",
+        "health": -1,
+        "happiness": 2,
+        "stress": 1
+      },
+      {
+        "text": "Skip buying a gift",
+        "health": 1,
+        "happiness": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "debt",
+    "rarity": 3
+  },
+  {
+    "description": "Alex struggles with self-doubt after receiving a C on their math test, wondering if they're just not good enough in subjects they care about.",
+    "choices": [
+      {
+        "text": "Push through and study harder for the next exam.",
+        "health": 1,
+        "happiness": -1,
+        "money": -1,
+        "stress": -2
+      },
+      {
+        "text": "Talk it out with a friend who is known for being good at math.",
+        "health": -1,
+        "happiness": 2,
+        "money": 0,
+        "stress": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "identity",
+    "rarity": 2
+  },
+  {
+    "description": "It's time for family dinner; everyone is expected to contribute something from their lunchboxes.",
+    "choices": [
+      {
+        "text": "Go to the celebration with your sibling.",
+        "health": 0,
+        "happiness": 3,
+        "stress": 0
+      },
+      {
+        "text": "Stay home and work on your own art project instead.",
+        "health": 0,
+        "happiness": 2,
+        "money": 0,
+        "stress": 0
+      },
+      {
+        "text": "Bring your favorite homemade sandwich that reminds you of summer picnics by the lake.",
+        "health": 0,
+        "happiness": 2
+      }
+    ],
+    "age_group": "childhood",
+    "theme": "family",
+    "rarity": 3
+  },
+  {
+    "description": "Jane recently lost her mother, who was the primary caregiver for her elderly father with dementia.",
+    "choices": [
+      {
+        "text": "Start investing in a retirement fund.",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": -2
+      },
+      {
+        "text": "Buy a second car.",
+        "health": -1,
+        "happiness": 1,
+        "money": -2,
+        "stress": 2
+      },
+      {
+        "text": "Move her father into an assisted living facility.",
+        "health": -1,
+        "happiness": 2,
+        "money": -3,
+        "stress": -2
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "aging",
+    "rarity": 2
+  },
+  {
+    "description": "You receive a message from your partner, Alex, who has been distant lately. They're apologizing and want to meet up for dinner to talk things through.",
+    "choices": [
+      {
+        "text": "Accept the invitation (You take it as an opportunity to reconnect)",
+        "health": 1,
+        "happiness": 3,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Decline politely, suggesting a call instead (You prefer to avoid confrontation)",
+        "health": 0,
+        "happiness": -1,
+        "money": 1,
+        "stress": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "relationships",
+    "rarity": 2
+  },
+  {
+    "description": "At school, you're asked to join a group project with classmates who seem disinterested and uncooperative.",
+    "choices": [
+      {
+        "text": "You can either confront them about their lack of effort or quietly work on your part hoping they will contribute later.",
+        "health": -1,
+        "happiness": 1,
+        "money": 0,
+        "stress": 2
+      },
+      {
+        "text": "Alternatively, you could ask the teacher for advice on how to handle the situation.",
+        "health": 1,
+        "happiness": 1,
+        "money": -1,
+        "stress": 1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "identity",
+    "rarity": 5
+  },
+  {
+    "description": "During a routine checkup, your doctor informs you that your blood pressure is higher than normal, suggesting potential health issues down the line.",
+    "choices": [
+      {
+        "text": "Call an ambulance immediately and ask for help from nearby friends and relatives.",
+        "health": 2,
+        "happiness": -3,
+        "money": -3,
+        "stress": -1
+      },
+      {
+        "text": "Ignore it, hoping it will pass after a few minutes of resting under some shade.",
+        "health": -2,
+        "happiness": 1,
+        "money": 1,
+        "stress": 3
+      },
+      {
+        "text": "Follow through with additional tests and start making dietary changes as recommended by your physician.",
+        "health": 1,
+        "happiness": -2
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "health scares",
+    "rarity": 2
+  },
+  {
+    "description": "Your parents have expressed concern about your recent academic decline; they propose tutoring sessions after school.",
+    "choices": [
+      {
+        "text": "Say yes and join them.",
+        "health": 0,
+        "happiness": 1
+      },
+      {
+        "text": "Decline politely and suggest an alternative activity.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Agree with enthusiasm, see it as constructive help.",
+        "health": 0,
+        "happiness": 1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "social pressure",
+    "rarity": 1
+  },
+  {
+    "description": "You've received a job offer in another city and are considering the move. The excitement of new opportunities clashes with the fear of leaving your current friends behind.",
+    "choices": [
+      {
+        "text": "Accept the job offer and start planning for the move.",
+        "health": 0,
+        "happiness": 1,
+        "money": 3,
+        "stress": 2
+      },
+      {
+        "text": "Politely decline the job offer, citing personal reasons.",
+        "health": 0,
+        "happiness": 0,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Negotiate terms that might allow you to work remotely or part-time from home.",
+        "health": 0,
+        "happiness": 1,
+        "money": 2,
+        "stress": -1
+      },
+      {
+        "text": "Take some time to evaluate if moving aligns with long-term goals before deciding.",
+        "health": 0,
+        "happiness": 1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "moving",
+    "rarity": 3
+  },
+  {
+    "description": "After a night out with friends, you realize that the tab has been charged to your credit card without your consent. You feel frustrated and violated by someone's carelessness.",
+    "choices": [
+      {
+        "text": "Confront your friend about their behavior and ask for reimbursement.",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": 2
+      },
+      {
+        "text": "Contact the restaurant directly to dispute the charge and request compensation.",
+        "health": 1,
+        "happiness": 1,
+        "money": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "debt",
+    "rarity": 4
+  },
+  {
+    "description": "Your friend invites you on a virtual reality hangout session, which promises immersive gaming experiences.",
+    "choices": [
+      {
+        "text": "Register for the tournament.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 2
+      },
+      {
+        "text": "Ignore the post and continue browsing your feed.",
+        "health": 0,
+        "happiness": 0,
+        "money": 0,
+        "stress": 0
+      },
+      {
+        "text": "Accept the invitation.",
+        "health": 0,
+        "happiness": 2,
+        "money": 0,
+        "stress": 1
+      },
+      {
+        "text": "Decline politely due to workload from school projects.",
+        "health": 0,
+        "happiness": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "internet",
+    "rarity": 1
+  },
+  {
+    "description": "After a year of college, Alex has accumulated student loan debt and is starting their first job in the marketing industry. They are considering taking on extra work hours or seeking additional income sources.",
+    "choices": [
+      {
+        "text": "Take on overtime work at current job",
+        "health": 0,
+        "happiness": -1,
+        "money": 2,
+        "stress": 2
+      },
+      {
+        "text": "Participate in freelance projects during evenings/weekends",
+        "health": 1,
+        "happiness": 1,
+        "money": 2,
+        "stress": 1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "debt",
+    "rarity": 2
+  },
+  {
+    "description": "Taylor discovers they are moving to a new city due to their parent’s job",
+    "choices": [
+      {
+        "text": "Alex decides to go with his close friends.",
+        "health": 0,
+        "happiness": 1,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Alex opts out of going to the party.",
+        "health": 1,
+        "happiness": -2,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Alex arrives uninvited.",
+        "health": -1,
+        "happiness": -2,
+        "money": -1,
+        "stress": 2
+      },
+      {
+        "text": "Alex attends as an observer.",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": -2
+      }
+    ],
+    "age_group": "teen",
+    "theme": "identity",
+    "rarity": 2
+  },
+  {
+    "description": "After school, you decide to hang out with friends online via a multiplayer video game. You spend hours playing and competing together.",
+    "choices": [
+      {
+        "text": "Join your friend in the cooperative mission (Coop)",
+        "health": 1,
+        "happiness": -2,
+        "money": 0,
+        "stress": 1
+      },
+      {
+        "text": "Play against your friends for ranking points",
+        "health": -1,
+        "happiness": 2,
+        "money": -2,
+        "stress": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "internet",
+    "rarity": 1
+  },
+  {
+    "description": "You've secured a job interview for your dream position in an esteemed company. As you prepare, your nerves begin to fray.",
+    "choices": [
+      {
+        "text": "Practice interview questions alone",
+        "health": 0,
+        "happiness": 1,
+        "money": 0,
+        "stress": 2
+      },
+      {
+        "text": "Join a friend for coffee and casual chat",
+        "health": -1,
+        "happiness": 1,
+        "money": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "career anxiety",
+    "rarity": 3
+  },
+  {
+    "description": "You've been offered a shift at the local coffee shop on weekends.",
+    "choices": [
+      {
+        "text": "Accept the job for extra cash and experience.",
+        "health": 0,
+        "happiness": -1,
+        "money": 3,
+        "stress": 1
+      },
+      {
+        "text": "Decline politely, citing school commitments as your priority.",
+        "health": 0,
+        "happiness": 1,
+        "money": 0,
+        "stress": 1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "part-time jobs",
+    "rarity": 2
+  },
+  {
+    "description": "After several weeks of attending the book club, Emily starts noticing someone she really clicks with—a fellow member named Alex who seems kind and interested in getting to know her better.",
+    "choices": [
+      {
+        "text": "Attend the first meeting alone, hoping to make friends through shared passion for literature.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 2
+      },
+      {
+        "text": "Bring along her best friend Lisa to have some company at the first meeting.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 1
+      },
+      {
+        "text": "Initiate conversation by asking about their favorite books and sharing recommendations.",
+        "health": 1,
+        "happiness": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "relationships",
+    "rarity": 3
+  },
+  {
+    "description": "You're sitting in a small, cozy cafe with your morning coffee and catching up on the latest news. Your friend notices you wincing slightly when reaching for your cup.",
+    "choices": [
+      {
+        "text": "Do you mention it to your doctor or brush it off?",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Decide to make an appointment for a check-up.",
+        "health": 1,
+        "happiness": -1,
+        "money": -1,
+        "stress": 1
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "aging",
+    "rarity": 2
+  },
+  {
+    "description": "You're invited to a surprise retirement party thrown by your closest colleagues, friends, and family members in honor of your recent retirement from the workforce. The venue is filled with laughter, shared stories, and well wishes for your future endeavors outside of work.",
+    "choices": [
+      {
+        "text": "Attend the celebration (Your presence will show appreciation)",
+        "health": 2,
+        "happiness": 3,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Decline politely due to prior commitments (Although you miss out on the celebration)",
+        "health": -1,
+        "happiness": -2,
+        "money": 0,
+        "stress": 2
+      },
+      {
+        "text": "Arrive late to catch up with everyone after leaving early due to an unexpected doctor’s appointment",
+        "health": 1,
+        "happiness": -1,
+        "money": -1,
+        "stress": 2
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "retirement",
+    "rarity": 3
+  },
+  {
+    "description": "You've been asked on a date by someone you have feelings for. It's the first time, and you want it to go well.",
+    "choices": [
+      {
+        "text": "Accept their invitation with excitement (girlfriend)",
+        "health": 1,
+        "happiness": -2,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Politely decline due to an unexpected family obligation (family)",
+        "health": -1,
+        "happiness": -2,
+        "money": 0,
+        "stress": 1
+      },
+      {
+        "text": "Agree to meet up but suggest something casual like grabbing coffee (balanced approach)",
+        "health": 1,
+        "happiness": 1,
+        "money": 1,
+        "stress": 1
+      },
+      {
+        "text": "Decline politely because of your current dating situation (considerate)",
+        "health": 1,
+        "happiness": -1,
+        "money": 0,
+        "stress": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "dating",
+    "rarity": 4
+  },
+  {
+    "description": "You've just been laid off from your job due to budget cuts, and the bills are piling up. Your landlord is not understanding of your situation.",
+    "choices": [
+      {
+        "text": "Call the bank to negotiate a payment plan for your credit card debt.",
+        "health": 0,
+        "happiness": -1,
+        "money": -1,
+        "stress": 3
+      },
+      {
+        "text": "Try to find temporary work in retail or food services while looking for a new job.",
+        "health": -1,
+        "happiness": 1,
+        "money": -2,
+        "stress": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "debt",
+    "rarity": 3
+  },
+  {
+    "description": "Your friends are all going out for fast food every day",
+    "choices": [
+      {
+        "text": "Decline the invitation politely.",
+        "health": 1,
+        "happiness": 2,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Go to the party with caution.",
+        "health": -1,
+        "happiness": -1,
+        "money": -1,
+        "stress": 2
+      },
+      {
+        "text": "Attend the party unsupervised.",
+        "health": -2,
+        "happiness": -3,
+        "money": -1,
+        "stress": 3
+      },
+      {
+        "text": "Offer to bring your own non-alcoholic drinks.",
+        "health": 1,
+        "happiness": 1,
+        "money": -1,
+        "stress": -1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "social pressure",
+    "rarity": 3
+  },
+  {
+    "description": "Alex sees Jordan and Taylor, who used to be best friends, having a heated argument in the school cafeteria over a misunderstanding involving another student's social media post.",
+    "choices": [
+      {
+        "text": "Approach them to mediate and try to resolve the conflict peacefully.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Ignore the situation and continue with lunch.",
+        "health": 0,
+        "happiness": 1,
+        "money": 0,
+        "stress": 2
+      },
+      {
+        "text": "Join one of the sides to support your friend against the other.",
+        "health": 0,
+        "happiness": -2,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Report the fight to the principal to prevent any further escalation.",
+        "health": 0,
+        "happiness": -2,
+        "money": 0
+      }
+    ],
+    "age_group": "teen",
+    "theme": "friend drama",
+    "rarity": 4
+  },
+  {
+    "description": "During your weekly bridge game, one of the regular players introduces themselves as George, who used to be your neighbor growing up. They strike up a conversation about their past neighborhood adventures.",
+    "choices": [
+      {
+        "text": "\"Let's go grab a coffee together!\"",
+        "health": 1,
+        "happiness": -1,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "\"I should head back now; I have an appointment.\"",
+        "health": 0,
+        "happiness": 1,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "\"It was quite an exciting place to grow up!\"",
+        "health": 0,
+        "happiness": -1
+      }
+    ],
+    "age_group": "elderly",
+    "theme": "old friendships",
+    "rarity": 1
+  },
+  {
+    "description": "You've just received your first mortgage statement and noticed an unexpected fee for late payment last month.",
+    "choices": [
+      {
+        "text": "Apologize to the bank manager and discuss possible solutions or wait it out silently hoping they forget about it?",
+        "health": 0,
+        "happiness": -1,
+        "money": -3,
+        "stress": 2
+      },
+      {
+        "text": "Look into refinancing options with a different lender in hopes of better terms or focus on budgeting to prevent future late payments.",
+        "health": -1,
+        "happiness": 1,
+        "money": 2,
+        "stress": -1
+      }
+    ],
+    "age_group": "adult",
+    "theme": "mortgages",
+    "rarity": 3
+  },
+  {
+    "description": "Aidan, a high school junior, starts his first job at the local coffee shop. It's early morning and he's just learned how to make lattes. He’s excited about earning money for college savings but nervous about managing work responsibilities with homework.",
+    "choices": [
+      {
+        "text": "Accept the shift.",
+        "health": 0,
+        "happiness": 3,
+        "money": 5,
+        "stress": 2
+      },
+      {
+        "text": "Politely decline and suggest a friend join instead.",
+        "health": 0,
+        "happiness": 1,
+        "money": 0,
+        "stress": 1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "part-time jobs",
+    "rarity": 2
+  },
+  {
+    "description": "Alex forgot their homework at home and rushed back after school was dismissed.",
+    "choices": [
+      {
+        "text": "Ask the teacher for an extension.",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 0
+      },
+      {
+        "text": "Skip class until lunchtime to get it done.",
+        "health": -1,
+        "happiness": -1,
+        "money": -1,
+        "stress": 2
+      }
+    ],
+    "age_group": "teen",
+    "theme": "school",
+    "rarity": 1
+  },
+  {
+    "description": "Jamie's parents are hosting a party while they have an important exam next week.",
+    "choices": [
+      {
+        "text": "Attend the party with friends.",
+        "health": 0,
+        "happiness": 2,
+        "money": -1,
+        "stress": -2
+      },
+      {
+        "text": "Study at the library all evening instead of going out.",
+        "health": -1,
+        "happiness": -1,
+        "money": 0
+      }
+    ],
+    "age_group": "teen",
+    "theme": "school",
+    "rarity": 2
+  },
+  {
+    "description": "You accidentally send a message intended for your crush, making it public on social media.",
+    "choices": [
+      {
+        "text": "Apologize and delete the post immediately (practical).",
+        "health": 0,
+        "happiness": -2,
+        "money": 0,
+        "stress": 1
+      },
+      {
+        "text": "Ignore it hoping they won't notice (risky).",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": 2
+      },
+      {
+        "text": "Create a humorous apology video to lighten the situation (creative).",
+        "health": 0,
+        "happiness": -1,
+        "money": 0,
+        "stress": -1
+      },
+      {
+        "text": "Blame someone else to avoid embarrassment (unethical).",
+        "health": -1,
+        "happiness": -3,
+        "money": 0,
+        "stress": -1
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "relationships",
+    "rarity": 2
+  },
+  {
+    "description": "Jamie's friends have started smoking, and they feel pressured to join in even though they know it's bad for their health. They want to fit in without compromising their values.",
+    "choices": [
+      {
+        "text": "Choose Art Major",
+        "health": 0,
+        "happiness": 2,
+        "money": -3,
+        "stress": -1
+      },
+      {
+        "text": "Choose Business Major",
+        "health": -1,
+        "happiness": -1,
+        "money": 3,
+        "stress": 2
+      },
+      {
+        "text": "Join Friends in Smoking",
+        "health": -2,
+        "happiness": 1
+      }
+    ],
+    "age_group": "teen",
+    "theme": "identity",
+    "rarity": 2
+  },
+  {
+    "description": "A friend asks if they can borrow money from you; however,",
+    "choices": [
+      {
+        "text": "Pay the rent first.",
+        "health": 1,
+        "happiness": -1,
+        "money": -7,
+        "stress": 0
+      },
+      {
+        "text": "Pay the bill now.",
+        "health": -1,
+        "happiness": 1,
+        "money": -4,
+        "stress": -1
+      },
+      {
+        "text": "Negotiate with the landlord about the bill due date.",
+        "health": 1,
+        "happiness": 1,
+        "money": 2,
+        "stress": -1
+      },
+      {
+        "text": "Use credit card to pay the bill.",
+        "health": -1,
+        "happiness": -1,
+        "money": -8,
+        "stress": 2
+      }
+    ],
+    "age_group": "young_adult",
+    "theme": "debt",
+    "rarity": 2
+  },
+  {
+    "description": "You're attending your grandchild's school play and feeling nostalgic about the past while also worried about their future.",
+    "choices": [
+      {
+        "text": "Smile and take pictures, capturing a moment of joy that will last forever.",
+        "health": 1,
+        "happiness": 3,
+        "stress": -2
+      },
+      {
+        "text": "Reminisce with old friends who are in the audience, sharing stories from your own childhood.",
+        "health": -1,
+        "happiness": 2,
+        "stress": -1
+      }
+    ],
+    "age_group": "middle_age",
+    "theme": "aging",
+    "rarity": 5
+  },
+  {
+    "description": "At work, you decide to pick up groceries on your way home. The lines are long, and you feel the impatience growing inside you.",
+    "choices": [
+      {
+        "text": "Prepare a quick breakfast and rush out the door.",
+        "health": 0,
+        "happiness": -1,
+        "money": 1,
+        "stress": 2
+      },
+      {
+        "text": "Take some time for meditation before starting the day.",
+        "health": 2,
+        "happiness": 1,
+        "money": -1,
+        "stress": -1
+      },
+      {
+        "text": "Opt for pre-packaged meals to save time.",
+        "health": 0,
+        "happiness": -1,
+        "money": 2
+      }
+    ],
+    "age_group": "adult",
+    "theme": "routine",
+    "rarity": 3
+  },
+  {
+    "description": "Your family goes on a road trip for a weekend getaway. You spend time together, exploring new places, trying different foods, and creating memories that last a lifetime.",
+    "choices": [
+      {
+        "text": "Play games with friends",
+        "health": 1,
+        "happiness": 3,
+        "money": -1
+      },
+      {
+        "text": "Open gifts",
+        "health": -1,
+        "happiness": 4,
+        "money": -2
+      },
+      {
+        "text": "Dance with your sibling",
+        "health": -1,
+        "happiness": 3,
+        "money": -1
+      },
+      {
+        "text": "Cut the cake",
+        "health": -1,
+        "happiness": 5,
+        "money": -1
+      }
+    ],
+    "age_group": "childhood",
+    "theme": "family",
+    "rarity": 2
+  },
+  {
+    "description": "Alex spilled coffee on his favorite shirt during lunch break.",
+    "choices": [
+      {
+        "text": "Apologize to the person who shared their meal with him and offer to pay for cleaning or a new shirt.",
+        "health": 0,
+        "happiness": -1,
+        "money": -2,
+        "stress": 1
+      },
+      {
+        "text": "Ignore the accident, hoping it will go unnoticed until after school.",
+        "health": 0,
+        "happiness": 1,
+        "money": -2,
+        "stress": 2
+      }
+    ],
+    "age_group": "teen",
+    "theme": "school",
+    "rarity": 2
+  }
+]

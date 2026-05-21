@@ -1,0 +1,134 @@
+.screen {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  padding: 36px 24px;
+  overflow-y: auto;
+}
+
+.inner {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.back {
+  background: none;
+  border: 0.5px solid var(--warm-border-strong);
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 12px;
+  color: var(--warm-muted);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background 0.15s;
+}
+.back:hover { background: var(--warm-surface); }
+
+.heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px;
+  background: var(--warm-card);
+  border: 0.5px solid var(--warm-border);
+  border-radius: var(--radius-lg);
+}
+
+.label {
+  font-size: 12px;
+  color: var(--warm-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.labelVal {
+  font-weight: 500;
+  color: var(--warm-accent);
+}
+
+.slider {
+  width: 100%;
+  accent-color: var(--warm-accent);
+}
+
+.sliderHints {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--warm-muted);
+  opacity: 0.7;
+}
+
+.statsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.statRow {
+  display: grid;
+  grid-template-columns: 80px 1fr 32px;
+  align-items: center;
+  gap: 10px;
+}
+
+.statName {
+  font-size: 12px;
+  color: var(--warm-text);
+  text-transform: capitalize;
+}
+
+.statVal {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--warm-accent);
+  text-align: right;
+}
+
+.stages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.stage {
+  font-size: 11px;
+  background: rgba(139,111,69,0.08);
+  border: 0.5px solid var(--warm-border-strong);
+  border-radius: 20px;
+  padding: 3px 10px;
+  color: var(--warm-accent);
+}
+
+.save {
+  background: var(--warm-accent);
+  color: var(--warm-card);
+  border: none;
+  border-radius: 20px;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  align-self: flex-start;
+  transition: opacity 0.15s;
+}
+.save:hover { opacity: 0.88; }
+.save:active { transform: scale(0.98); }
