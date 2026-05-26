@@ -18,7 +18,7 @@ export default function GameOverScreen({ stats, history, onRestart }) {
             Stress&nbsp;{Math.round(stats.stress)}
           </p>
           <p className={styles.coda}>
-            No score. No lesson. Just a life.
+            That was that.
           </p>
           <button className={styles.restart} onClick={onRestart}>
             Live again
