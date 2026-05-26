@@ -36,11 +36,11 @@ export default function TitleScreen({ onStart, onLoadFile, onSettings }) {
         </div>
 
         <h1 className={styles.title}>
-          A Life, Unfolding
+          A Life
         </h1>
 
         <p className={styles.sub}>
-          No destiny. No score. No lesson.
+          Have fun!
           <br />
           Just a series of small decisions and what comes after.
         </p>
